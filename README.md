@@ -156,6 +156,7 @@ The key aspect is *how LLMs adapt to defined environments*.
 | 2308 |    Chen et al.    |   ICLR   |  [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://arxiv.org/abs/2308.10848)   |
 | 2307 |    Wang et al.    |   NAACL   |  [Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration](https://arxiv.org/abs/2307.05300)   |
 | 2303 |    Li et al.    |   NeurIPS   |  [CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society](https://arxiv.org/abs/2303.17760)   |
+| 2405  |    Ahn, et al    |   ACL Findings   |  [TimeChara: Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models](https://arxiv.org/abs/2405.18027)   |
 
 
 <h3 id="agentic-interactions">🤖 Interaction & Behaviors</h3>
@@ -316,6 +317,7 @@ Pre-LLMs Era
 | 1911 |    Zheng et al.    |   AAAI   |  [A Pre-Training Based Personalized Dialogue Generation Model with Persona-Sparse Data](https://arxiv.org/abs/1911.04700)   |
 | 1911 |    Song et al.    |   AAAI   |  [Generating Persona Consistent Dialogues by Exploiting Natural Language Inference](https://arxiv.org/abs/1911.05889)   |
 | 1807 |    Zhang et al.    |   ACL   |  [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://aclanthology.org/P18-1205/)   |
+| 2307  |    Ahn, et al    |   ACL   |  [MPCHAT: Towards Multimodal Persona-Grounded Conversation](https://aclanthology.org/2023.acl-long.189/)   |
 </details>
 
 
