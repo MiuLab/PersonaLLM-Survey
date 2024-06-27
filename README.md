@@ -14,9 +14,9 @@
 ## Introduction
 This is the official repository of the paper ["*Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization*"](https://arxiv.org/abs/2406.01171).
 
-Recently, methods investigating how to adapt large language models (LLMs) for specific scenarios have gained great attention. Particularly, the concept of *persona*, originally adopted in dialogue literature, has re-surged as a promising avenue. However, the growing research on persona is relatively disorganized, lacking a systematic overview. To close the gap, we present a comprehensive survey to categorize the current state of the field. We identify two lines of research, namely (1) *LLM Role-Playing*, where personas are assigned to LLMs, and (2) *LLM Personalization*, where LLMs take care of user personas. To the best of our knowledge, we present the first survey tailored for LLM role-playing and LLM personalization under the unified view of persona, including taxonomy, current challenges, and potential directions.
+The concept of *persona*, originally adopted in dialogue literature, has re-surged as a promising framework for tailoring large language models (LLMs) to specific context (*e.g.*, personalized search, LLM-as-a-judge). However, the growing research on leveraging persona in LLMs is relatively disorganized and lacks a systematic taxonomy. To close the gap, we present a comprehensive survey to categorize the current state of the field. We identify two lines of research, namely (1) *LLM Role-Playing*, where personas are assigned to LLMs, and (2) *LLM Personalization*, where LLMs take care of user personas. Additionally, we introduce existing methods for LLM personality evaluation. To the best of our knowledge, we present the first survey for role-playing and personalization in LLMs under the unified view of persona.
 
-To foster future endeavors, we actively maintain this paper collection for the community.
+We continuously maintain this paper collection to foster future endeavors.
 
 
 <div style="display: flex; align-items: center;">
@@ -24,6 +24,7 @@ To foster future endeavors, we actively maintain this paper collection for the c
 
 
 ## News
+- [2024.06.27] :fire: We update an 8-page version on [arXiv](https://arxiv.org/abs/2406.01171).
 - [2024.06.04] :rocket: Our paper is now available on [arXiv](https://arxiv.org/abs/2406.01171) and the reading list on [GitHub](https://github.com/MiuLab/PersonaLLM-Survey).
 
 
@@ -79,7 +80,7 @@ The key aspect is *how LLMs adapt to defined environments*.
 <br>
 <p align="center">
   <a href=".">
-    <img src="figures/llm-role-playing.png" alt="LLM role-playing" width="80%" height="auto">
+    <img src="figures/llm-role-playing.png" alt="LLM role-playing" width="90%" height="auto">
   </a>
 </p>
 
@@ -136,6 +137,7 @@ The key aspect is *how LLMs adapt to defined environments*.
 
 | Date  |    Authors    | Venue |                                                            Paper                                                             |
 |:-----:|:---------------:|:-----------:|:----------------------------------------------------------------------------------------------------------------------------|
+| 2312 | Kwon et al. | AAAI | [Large Language Models are Clinical Reasoners: Reasoning-Aware Diagnosis Framework with Prompt-Generated Rationales](https://arxiv.org/abs/2312.07399) |
 | 2311 |    Tang et al.    |   arXiv   |  [Medagents: Large language models as collaborators for zero-shot medical reasoning](https://arxiv.org/abs/2311.10537)   |
 | 2307 |    Wu et al.    |   ICLR   |  [Large Language Models Perform Diagnostic Reasoning](https://arxiv.org/abs/2307.08922)   |
 | 2207 |    Liévin et al.    |   arXiv   |  [Can large language models reason about medical questions?](https://arxiv.org/abs/2207.08143)   |
@@ -153,10 +155,10 @@ The key aspect is *how LLMs adapt to defined environments*.
 
 | Date  |    Authors    | Venue |                                                            Paper                                                             |
 |:-----:|:---------------:|:-----------:|:----------------------------------------------------------------------------------------------------------------------------|
+| 2405  |    Ahn, et al    |   ACL Findings   |  [TimeChara: Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models](https://arxiv.org/abs/2405.18027)   |
 | 2308 |    Chen et al.    |   ICLR   |  [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://arxiv.org/abs/2308.10848)   |
 | 2307 |    Wang et al.    |   NAACL   |  [Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration](https://arxiv.org/abs/2307.05300)   |
 | 2303 |    Li et al.    |   NeurIPS   |  [CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society](https://arxiv.org/abs/2303.17760)   |
-| 2405  |    Ahn, et al    |   ACL Findings   |  [TimeChara: Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models](https://arxiv.org/abs/2405.18027)   |
 
 
 <h3 id="agentic-interactions">🤖 Interaction & Behaviors</h3>
@@ -208,7 +210,7 @@ The key aspect is *how LLMs adapt to distinct users*.
 
 <p align="center">
   <a href=".">
-    <img src="figures/llm-personalization.png" alt="LLM personalization" width="80%" height="auto">
+    <img src="figures/llm-personalization.png" alt="LLM personalization" width="90%" height="auto">
   </a>
 </p>
 
@@ -311,13 +313,13 @@ Pre-LLMs Era
 | 2401 |    Kim et al.    |   EACL   |  [Commonsense-augmented Memory Construction and Management in Long-term Conversations via Context-aware Persona Refinement](https://arxiv.org/abs/2401.14215)   |
 | 2308 |    Tu et al.    |   arXiv   |  [CharacterChat: Learning towards Conversational AI with Personalized Social Support](https://arxiv.org/abs/2308.10278)   |
 | 2307 |    Tang et al.    |   ACL   |  [Enhancing Personalized Dialogue Generation with Contrastive Latent Variables: Combining Sparse and Dense Persona](https://aclanthology.org/2023.acl-long.299/)   |
+| 2307  |    Ahn, et al    |   ACL   |  [MPCHAT: Towards Multimodal Persona-Grounded Conversation](https://aclanthology.org/2023.acl-long.189/)   |
 | 2011 |    Zhong et al.    |   EMNLP   |  [Towards Persona-Based Empathetic Conversational Models](https://aclanthology.org/2020.emnlp-main.531/)   |
 | 2007 |    Wu et al.    |   ACL   |  [Guiding Variational Response Generator to Exploit Persona](https://aclanthology.org/2020.acl-main.7/)   |
 | 2007 |    Liu et al.    |   ACL   |  [You Impress Me: Dialogue Generation via Mutual Persona Perception](https://aclanthology.org/2020.acl-main.131/)   |
 | 1911 |    Zheng et al.    |   AAAI   |  [A Pre-Training Based Personalized Dialogue Generation Model with Persona-Sparse Data](https://arxiv.org/abs/1911.04700)   |
 | 1911 |    Song et al.    |   AAAI   |  [Generating Persona Consistent Dialogues by Exploiting Natural Language Inference](https://arxiv.org/abs/1911.05889)   |
 | 1807 |    Zhang et al.    |   ACL   |  [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://aclanthology.org/P18-1205/)   |
-| 2307  |    Ahn, et al    |   ACL   |  [MPCHAT: Towards Multimodal Persona-Grounded Conversation](https://aclanthology.org/2023.acl-long.189/)   |
 </details>
 
 
@@ -490,21 +492,26 @@ Pre-LLMs Era
 📚 If you find our survey beneficial for your research, please kindly cite our paper :-)
 
 ```bibtex
-@misc{tseng2024tales,
-      title={Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization},
-      author={Yu-Min Tseng and Yu-Chao Huang and Teng-Yun Hsiao and Yu-Ching Hsu and Jia-Yin Foo and Chao-Wei Huang and Yun-Nung Chen},
-      year={2024},
-      eprint={2406.01171},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@misc{tseng2024talespersonallmssurvey,
+  title={Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization},
+  author={Yu-Min Tseng and Yu-Chao Huang and Teng-Yun Hsiao and Wei-Lin Chen and Chao-Wei Huang and Yu Meng and Yun-Nung Chen},
+  year={2024},
+  eprint={2406.01171},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2406.01171},
 }
 ```
 
 
 <h2 id="authors">🖌️ Authors</h2>
 
-[Yu-Min Tseng\*](https://github.com/ymntseng), [Yu-Chao Huang\*](https://github.com/Physics-Morris), [Teng-Yun Hsiao\*](), [Yu-Ching Hsu](), [Jia-Yin Foo](), [Chao-Wei Huang](https://github.com/chaoweihuang), [Yun-Nung Chen](https://www.csie.ntu.edu.tw/~yvchen/).
+[Yu-Min Tseng\*](https://github.com/ymntseng), [Yu-Chao Huang\*](https://github.com/Physics-Morris), [Teng-Yun Hsiao\*](), [Wei-Lin Chen\*](https://wlchen0206.github.io/), [Chao-Wei Huang](https://chaoweihuang.github.io/), [Yu Meng](https://yumeng5.github.io/), [Yun-Nung Chen](https://www.csie.ntu.edu.tw/~yvchen/).
 
 (\* Equal Contribution.)
+(Acknowlegement: Yu-Ching Hsu, Jia-Yin Foo.)
 
-<p align="center"><img src="figures/ntu-icon.svg" width="60%" /></p>
+<div align="center">
+  <img src="figures/ntu-logo.png" width="20%" />
+  <img src="figures/uva-logo.png" width="25%" />
+</div>
