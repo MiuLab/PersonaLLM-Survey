@@ -12,7 +12,7 @@
 
 
 ## Introduction
-This is the official repository of the paper ["*Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization*"](https://arxiv.org/abs/2406.01171).
+This is the official repository of the paper ["*Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization*"](https://arxiv.org/abs/2406.01171), _EMNLP 2024 Findings_.
 
 The concept of *persona*, originally adopted in dialogue literature, has re-surged as a promising framework for tailoring large language models (LLMs) to specific context (*e.g.*, personalized search, LLM-as-a-judge). However, the growing research on leveraging persona in LLMs is relatively disorganized and lacks a systematic taxonomy. To close the gap, we present a comprehensive survey to categorize the current state of the field. We identify two lines of research, namely (1) *LLM Role-Playing*, where personas are assigned to LLMs, and (2) *LLM Personalization*, where LLMs take care of user personas. Additionally, we introduce existing methods for LLM personality evaluation. To the best of our knowledge, we present the first survey for role-playing and personalization in LLMs under the unified view of persona.
 
@@ -24,6 +24,7 @@ We continuously maintain this paper collection to foster future endeavors.
 
 
 ## News
+- [2024.09.20] :confetti_ball: Excited to share that our [paper](https://arxiv.org/abs/2406.01171) is accepted at *[EMNLP 2024](https://2024.emnlp.org/) Findings*! Hooray :raised_hands:!
 - [2024.06.27] :fire: We update an 8-page version on [arXiv](https://arxiv.org/abs/2406.01171).
 - [2024.06.04] :rocket: Our paper is now available on [arXiv](https://arxiv.org/abs/2406.01171) and the reading list on [GitHub](https://github.com/MiuLab/PersonaLLM-Survey).
 
