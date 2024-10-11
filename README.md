@@ -24,6 +24,7 @@ We continuously maintain this paper collection to foster future endeavors.
 
 
 ## News
+- [2024.10.05] :dart: We update the camera-ready version on [arXiv](https://arxiv.org/abs/2406.01171). Click the link to check it out!
 - [2024.09.20] :confetti_ball: Excited to share that our [paper](https://arxiv.org/abs/2406.01171) is accepted at *[EMNLP 2024](https://2024.emnlp.org/) Findings*! Hooray :raised_hands:!
 - [2024.06.27] :fire: We update an 8-page version on [arXiv](https://arxiv.org/abs/2406.01171).
 - [2024.06.04] :rocket: Our paper is now available on [arXiv](https://arxiv.org/abs/2406.01171) and the reading list on [GitHub](https://github.com/MiuLab/PersonaLLM-Survey).
